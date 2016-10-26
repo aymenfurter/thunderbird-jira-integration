@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://helloworld/locale/hello.dtd">
+	<prefwindow id="appPreferences"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+		<prefpane id="pane1" label="User">
+			<preferences>
+				<preference id="userName" name="jip.userName" type="string" />
+				<preference id="userPassword" name="jip.userPassword" type="string" />
+				<preference id="serverIp" name="jip.serverIp" type="string" />
+				<preference id="xmlLocation" name="jip.xmlLocation" type="string" />
+				<preference id="loginLocation" name="jip.loginLocation" type="string" />				
+			</preferences>
+
+			<image src="jip-header.png" />
+			<label style="font-size:15px; font-weight:bold;" value="Settings" />
+			<groupbox>
+				<caption label="Login" />
+				<label style="font-weight: bold;" control="jip.settings.userName"
+					value="Username" />
+				<textbox  preference="userName" id="jip.settings.userName" />
+				<label style="font-weight: bold;" control="jip.settings.userName"
+					value="Password" />
+				<textbox  preference="userPassword" id="jip.settings.userPassword" />
+
+			</groupbox>
+			<label style="font-size:15px; font-weight:bold;" value="Server Configuration" />
+			<groupbox>
+				<caption label="Server" />
+				<label style="font-weight: bold;" control="jip.settings.ServerIP"
+					value="JIRA Address" />
+				<textbox preference="serverIp" id="jip.settings.ServerIP" />				
+			</groupbox>
+		</prefpane>
+		
+	</prefwindow>
+

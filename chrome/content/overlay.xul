@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://jiraintgrplugin/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://jiraintgrplugin/locale/overlay.dtd">
+<overlay id="helloworld-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script src="overlay.js"/>
+<popup id="mailContext">
+<menuitem insertafter="mailContext-sep-reply" id="threadPaneContext-jipChangeRequest" label="Create JIRA Ticket" oncommand="JIP.openChangeRequest();"/>
+</popup>
+</overlay>

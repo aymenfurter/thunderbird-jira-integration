@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://helloworld/locale/hello.dtd">
+
+<window id="jip.export.changerequest.add" title="Create Issue"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	style="width:600px">
+	<script src="jira-intgr-plugin.js" />
+	<script src="changeRequest.js" />
+	<script src="prefutils.js"/>
+	<image src="jip-header.png" />
+
+	<label style="font-size:15px; font-weight:bold;" value="Create Issue" />
+	<groupbox>
+		<label style="font-weight: bold;" control="jip.export.changerequest.add.title"
+			value="Summary" />
+		<textbox id="jip.export.changerequest.add.title" />
+		
+		<hbox>
+			<label style="font-weight: bold;" control="jip.export.changerequest.add.priority"
+				value="Priority" />			
+		</hbox>
+		<hbox>			
+			<menulist label="Please Choose" id="jip.export.changerequest.add.priority">
+				<menupopup>
+					<menuitem label="Very High" />
+					<menuitem label="High" />
+					<menuitem label="Normal" />
+					<menuitem label="Low" />
+					<menuitem label="Very Low" />
+				</menupopup>
+			</menulist>			
+		</hbox>		
+		<label style="font-weight: bold" value="Project" />
+		<menulist label="Please Choose" id="jip.export.changerequest.add.project">
+			<menupopup>
+
+			</menupopup>
+		</menulist>		
+	</groupbox>
+	<groupbox>
+		<caption label="Description" />
+		<hbox id="appcontent" flex="1">
+			<editor id="t1" editortype="html" src="about:blank" flex="1"
+				type="content-primary" style="width: 250px; height: 250px" />
+		</hbox>
+	</groupbox>
+
+	<hbox>
+		<button label="Send" oncommand="JIP.sendChangeRequest()" />
+	</hbox>
+</window>
+
