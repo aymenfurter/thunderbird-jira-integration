@@ -1,7 +1,7 @@
-content	jira-intgr-plugin	chrome/content/
-overlay	chrome://messenger/content/messenger.xul	chrome://jira-intgr-plugin/content/overlay.xul
+content	jiraintgrplugin	jar:chrome/jiraintgrplugin.jar!/content/
+overlay	chrome://messenger/content/messenger.xul	chrome://jiraintgrplugin/content/overlay.xul
 
-locale	jira-intgr-plugin	en-US	chrome/locale/en-US/
+locale	jiraintgrplugin	en-US	jar:chrome/jiraintgrplugin.jar!/locale/en-US/
 
-skin	jira-intgr-plugin	classic/1.0	chrome/skin/
-#style	chrome://global/content/customizeToolbar.xul	chrome://jira-intgr-plugin/skin/overlay.css
+skin	jiraintgrplugin	classic/1.0	jar:chrome/jiraintgrplugin.jar!/skin/
+#style	chrome://global/content/customizeToolbar.xul	chrome://jiraintgrplugin/skin/overlay.css

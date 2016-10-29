@@ -10,7 +10,7 @@
     <em:creator>Aymen Furter</em:creator>
     <!-- optional items -->
     <em:contributor>Aymen Furter</em:contributor>
-    <em:homepageURL>http://www.aymenfurter.ch/jip</em:homepageURL>
+    <em:homepageURL>http://www.aymenfurter.ch/projects/jip</em:homepageURL>
     <!--em:optionsURL>chrome://sampleext/content/settings.xul</em:optionsURL>
     <em:aboutURL>chrome://sampleext/content/about.xul</em:aboutURL>
     <em:iconURL>chrome://sampleext/skin/mainicon.png</em:iconURL>
@@ -26,7 +26,7 @@
       </Description>
     </em:targetApplication>
 
-  <em:optionsURL>chrome://jira-intgr-plugin/content/settings.xul</em:optionsURL>
+  <em:optionsURL>chrome://jiraintgrplugin/content/settings.xul</em:optionsURL>
   <em:aboutURL/><em:iconURL/><em:updateURL/><em:updateKey/>
   <em:hidden/></Description>
 

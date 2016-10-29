@@ -3,7 +3,7 @@ var JIP = {
     this.initialized = true;
   },  
   openChangeRequest: function() {
-    window.open("chrome://jira-intgr-plugin/content/sendChangeRequest.xul", "", "chrome");
+    window.open("chrome://jiraintgrplugin/content/sendChangeRequest.xul", "", "chrome");
   }
 };
 
