@@ -10,12 +10,7 @@
     <em:creator>Aymen Furter</em:creator>
     <!-- optional items -->
     <em:contributor>Aymen Furter</em:contributor>
-    <em:homepageURL>http://www.aymenfurter.ch/</em:homepageURL>
-    <!--em:optionsURL>chrome://sampleext/content/settings.xul</em:optionsURL>
-    <em:aboutURL>chrome://sampleext/content/about.xul</em:aboutURL>
-    <em:iconURL>chrome://sampleext/skin/mainicon.png</em:iconURL>
-    <em:updateURL>http://sampleextension.mozdev.org/update.rdf</em:updateURL-->
-
+    <em:homepageURL>http://www.aymenfurter.ch/</em:homepageURL>    
     <!-- Thunderbird -->
    <em:targetApplication>
       <Description>
@@ -27,7 +22,8 @@
     </em:targetApplication>
 
   <em:optionsURL>chrome://jiraintgrplugin/content/settings.xul</em:optionsURL>
-  <em:aboutURL/><em:iconURL/><em:updateURL/><em:updateKey/>
-  <em:hidden/></Description>
+  <em:aboutURL/>
+  <em:iconURL/>
+  </Description>
 
 </RDF>
