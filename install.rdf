@@ -4,13 +4,13 @@
   <Description about="urn:mozilla:install-manifest">
   
     <em:id>jiraintgrplugin@aymenfurter.ch</em:id>
-    <em:name>Jira Integration Plugin</em:name>
+    <em:name>Jira Integration Plugin (Beta)</em:name>
     <em:version>0.1</em:version>
-    <em:description>Create Jira Tickets directly from within Mozilla Thunderbird (based on E-Mails).</em:description>
+    <em:description>Create Jira Tickets directly from within Mozilla Thunderbird (based on E-Mails). This Addons saves your Username and Password in clear text. Use at your own risk. (Also, you might need to disable the CSRF Filter in your JIRA Instance.</em:description>
     <em:creator>Aymen Furter</em:creator>
     <!-- optional items -->
     <em:contributor>Aymen Furter</em:contributor>
-    <em:homepageURL>http://www.aymenfurter.ch/projects/jip</em:homepageURL>
+    <em:homepageURL>http://www.aymenfurter.ch/</em:homepageURL>
     <!--em:optionsURL>chrome://sampleext/content/settings.xul</em:optionsURL>
     <em:aboutURL>chrome://sampleext/content/about.xul</em:aboutURL>
     <em:iconURL>chrome://sampleext/skin/mainicon.png</em:iconURL>
