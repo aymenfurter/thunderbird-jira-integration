@@ -8,8 +8,6 @@
 				<preference id="userName" name="jip.userName" type="string" />
 				<preference id="userPassword" name="jip.userPassword" type="string" />
 				<preference id="serverIp" name="jip.serverIp" type="string" />
-				<preference id="xmlLocation" name="jip.xmlLocation" type="string" />
-				<preference id="loginLocation" name="jip.loginLocation" type="string" />				
 			</preferences>
 
 			<image src="jip-header.png" />
