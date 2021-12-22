@@ -1,4 +1,4 @@
-# Thunderbird JIRA Integration (Beta)
+# Thunderbird JIRA Integration (No longer maintained)
 
 ## Description
 Create Jira Tickets directly from within Mozilla Thunderbird (based on E-Mails). This Addons saves your Username and Password in clear text. Use at your own risk. (Also, you might need to disable the CSRF Filter in your JIRA Instance.
